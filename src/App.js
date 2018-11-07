@@ -5,6 +5,8 @@ import { SharedSnackbarProvider } from './SharedSnackbar.context';
 import ButtonA from './ButtonA.component';
 import ButtonB from './ButtonB.component';
 
+import Calculator from './lifting-state-up/Calculator';
+
 // class App extends Component {
 //   render() {
 //     return (
@@ -50,4 +52,7 @@ class App extends Component {
   }
 }
 
-export default App;
+// export default App;
+
+export default Calculator;
+
